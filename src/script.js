@@ -1,4 +1,3 @@
-
 async function fetchBlock() {
 
     let displayBlock = document.getElementById("block-number")

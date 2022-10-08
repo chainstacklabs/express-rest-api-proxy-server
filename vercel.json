@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "api-proxy-etherscan",
+    "builds": [
+       { "src": "index.html", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }

@@ -14,8 +14,8 @@ npm install
 4. Run page with:
 
 ```sh
-npm star dev
+npm run dev
 ```
+The page is now running in `http://localhost:5000/`. Open it in your browser to see it. Click the `Latest block` button to display the latest block retrieved from the Ehterscan API. 
 
-
-
+If you check the source code from the browser, you won't be able to find the API key used! 

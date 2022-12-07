@@ -23,12 +23,6 @@ router.get('/', async (req, res) => {
         const apiResponse = await needle('get', fullUrl)
         const data = apiResponse.body
 
-        // Console log the API key and the full URL, when a request is sent if in DEV mode.
-        if (process.env.NODE_ENV !== "production") {
-            console.log(`key = ${apiKey}`)
-            console.log(`Full request URL = ${fullUrl}`)
-        }
-
         res.status(200).json(data)
     } catch (error) {
         res.status(500).json({

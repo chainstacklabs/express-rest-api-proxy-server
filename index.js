@@ -29,6 +29,3 @@ app.use('/api', require('./routes'))
 app.use(cors())
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
-
-// Export the Express API
-module.exports = app;

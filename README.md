@@ -26,7 +26,7 @@
 This project shows how you can protect your Etherscan API key by creating your own back-end server where you store the API key.
 
 Read the full guide on the Chainstack developer portal
-* []()
+* [How to store your Web3 DApp secrets: Guide to environment variables](https://docs.chainstack.com/docs/how-to-store-your-web3-dapp-secrets-guide-to-environment-variables)
 
 ## Project details
 
@@ -76,5 +76,3 @@ If you check the source code from the browser, you won't be able to find the API
 
 * Node.js: ^16.17.0— [install Node](https://nodejs.org/en/download/)
 * Etherscan API key
-
-If you check the source code from the browser, you won't be able to find the API key used! 
